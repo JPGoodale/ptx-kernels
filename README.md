@@ -21,3 +21,7 @@ https://docs.nvidia.com/cuda/inline-ptx-assembly/index.html
 ## Useful Resources
 
 https://godbolt.org
+
+https://www.cs.uaf.edu/2011/spring/cs641/lecture/03_03_CUDA_PTX.html
+
+https://youtu.be/-TyufbTRt3Y?si=lMZdq1Pid5OGa-4e
