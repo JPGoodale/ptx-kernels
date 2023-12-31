@@ -190,7 +190,6 @@ void matmul() {
 
     matrixMulAsm<<<blocks, threads>>>(d_a, d_b, d_c, N);
     cudaMemcpy(h_c, d_c, bytes, cudaMemcpyDeviceToHost);
-    printf("%i \n", *h_c);
 
     verify_result(h_a, h_b, h_c, N);
     printf("COMPLETED SUCCESSFULLY\n");
