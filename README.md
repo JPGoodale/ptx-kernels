@@ -9,7 +9,7 @@ Temporary Registers: Instead of `%r`, we use `%%t0` to `%%tN`, where t stands fo
 
 Address Registers: Address registers, typically denoted as `%rd` in standard PTX, are replaced with `%%ad`. 
 
-Predicate Registers: Predicate registers are usually represented as `%p` in PTX. In our inline assembly, they are denoted as `%%pr`.
+Predicate Registers: Predicate registers are usually represented as `%p`. In our inline assembly, they are denoted as `%%pr`.
 
 ## References 
 
